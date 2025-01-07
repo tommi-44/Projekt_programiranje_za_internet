@@ -51,48 +51,38 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
+    title: 'Početna',
+    caption: 'Početna stranica',
     icon: 'school',
-    link: 'https://quasar.dev'
+    link: '/'
   },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
+   {
+    title: 'Unos proizvoda',
+    caption: 'Unos novih proizvoda',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: '#/unos_proizvoda/'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
+    title: 'Pregled proizvoda',
+    caption: 'Pregled svih proizvoda',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    link: '#/pregled_proizvoda/'
   },
+ 
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
+    title: 'Unos kupovine',
+    caption: 'Unos kupovine',
     icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    link: '#/kupovina_proizvoda'
   },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+   {
+    title: 'Pregled kupovine',
+    caption: 'Pregled kupovine',
+    icon: 'record_voice_over',
+    link: '#/pregled_kupovina'
   },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
 ]
+
 
 const leftDrawerOpen = ref(false)
 
