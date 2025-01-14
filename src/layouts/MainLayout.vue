@@ -53,32 +53,50 @@ const linksList = [
   {
     title: 'Početna',
     caption: 'Početna stranica',
-    icon: 'school',
+    icon: 'dashboard',
     link: '/'
   },
+  {
+    title: 'O nama',
+    caption: 'O nama',
+    icon: 'info',
+    link: '#/ONama'
+  },
+  {
+  title: 'Radnici',
+  caption: 'Radnici',
+  icon: 'people',
+  link: '#/Radnici'
+  },
+  {
+  title: 'Kontakt',
+  caption: 'Kontakt',
+  icon: 'contact_mail',
+  link: '#/Kontakt'
+}, 
    {
     title: 'Unos proizvoda',
     caption: 'Unos novih proizvoda',
-    icon: 'code',
+    icon: 'add_circle',
     link: '#/unos_proizvoda/'
   },
   {
     title: 'Pregled proizvoda',
     caption: 'Pregled svih proizvoda',
-    icon: 'chat',
+    icon: 'inventory',
     link: '#/pregled_proizvoda/'
   },
  
   {
     title: 'Unos kupovine',
     caption: 'Unos kupovine',
-    icon: 'record_voice_over',
+    icon: 'shopping_cart',
     link: '#/kupovina_proizvoda'
   },
    {
     title: 'Pregled kupovine',
     caption: 'Pregled kupovine',
-    icon: 'record_voice_over',
+    icon: 'receipt_long ',
     link: '#/pregled_kupovina'
   },
 ]
