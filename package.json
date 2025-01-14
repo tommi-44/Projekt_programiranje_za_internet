@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "quasar-project",
   "version": "0.0.1",
   "description": "A Quasar Project",
@@ -31,5 +32,23 @@
     "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
+=======
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+>>>>>>> 8d9dd3f87e29bcf99b6fb072027558e67a84833c
   }
 }
