@@ -1,4 +1,4 @@
-# Projekt_programiranje_za_internet
+# Projekt programiranje za internet
 ## WEB trgovina drvenih usluga
 Projekt sa kolegija Programiranje za internet.
 Obuhvaća unos, pregled, brisanje i izmjenu drvnih proizvoda, proizvedenih na lokalnoj pilani,
